@@ -1,4 +1,4 @@
-<!-- PAGE_STATUS: DRAFT -->
+<!-- PAGE_STATUS: OK -->
 
 # Acer Swfit SF314-41-R7GB     
 
@@ -45,10 +45,10 @@ Official product page: <https://www.acer.com/nl-nl/support/product-support/SF314
 |      Color gamut       | Declared/known<br>coverage | Calibrated and measured<br>coverage |
 | :--------------------: | :------------------------: | :---------------------------------: |
 | Wide color gamut (WDC) |             -              |                  -                  |
-|          sRGB          |           ~ 63%            |               61.66%                |
+|          sRGB          |           ~ 63%            |               59.63%                |
 |          NTSC          |           ~ 45%            |                  -                  |
-|         DCI-P3         |           ~ 47%            |               43.99%                |
-|       Adobe-RGB        |           ~ 47%            |               42.79%                |
+|         DCI-P3         |           ~ 47%            |               42.29%                |
+|       Adobe-RGB        |           ~ 47%            |               41.16%                |
    
 Color depth: 6 bit    
 
@@ -107,7 +107,7 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 > - Daylight: 120–140 cd/m²
 > - Bright daylight: 140–160 cd/m²
 
-![Brightness vs. Luminance](brightness_vs_luminance_BOE0852.png) 
+![Brightness vs. Luminance](brightness_vs_luminance_LP140WFA-SPD1.png) 
 
 | OSD Brightness (%) | Luminance (cd/m²) |
 | :----------------: | :---------------: |
