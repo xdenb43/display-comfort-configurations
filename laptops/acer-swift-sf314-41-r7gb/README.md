@@ -1,6 +1,6 @@
 <!-- PAGE_STATUS: OK -->
 
-# Acer Swfit SF314-41-R7GB     
+# Acer Swift SF314-41-R7GB     
 
 14.0-inch 16:9 IPS display with an **LG Philips LP140WFA-SPD1** panel and standard White LED backlight.
 
