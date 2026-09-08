@@ -6,7 +6,7 @@
 
 Calibration optimized for visual comfort using Spyder X and DisplayCAL.
 
-Official product page: <https://www.acer.com/nl-nl/support/product-support/SF314-41/downloads?utm_source=chatgpt.com>
+Official product page: <https://www.acer.com/ru-ru/support/product-support/SF314-41/downloads>
 
 [![Page status](badges/status.svg)](#)
 [![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-configuration-database/laptops/acer-swift-sf314-41-r7gb/badges/icc.html)
