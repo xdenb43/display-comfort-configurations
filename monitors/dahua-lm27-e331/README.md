@@ -45,7 +45,7 @@ Official product page:  <https://www.dahuasecurity.com/mena/products/All-Product
 **Gamut coverage**
 |      Color gamut       | Declared/known<br>coverage | Calibrated and measured<br>coverage |
 | :--------------------: | :------------------------: | :---------------------------------: |
-| Wide color gamut (WDC) |     :heavy_check_mark:     |                  -                  |
+| Wide color gamut (WDC) |     :heavy_check_mark:     |         :heavy_check_mark:          |
 |          sRGB          |           ~ 99%            |               99.95%                |
 |          NTSC          |           ~ 85%            |                  -                  |
 |         DCI-P3         |             -              |               91.15%                |
@@ -64,11 +64,11 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 ### Environment and targets
 
 **Calibration environment**
-| Parameter          | Value        |
-| ------------------ | ------------ |
-| Calibration date   | 2026-06-30   |
-| Instrument         | Spyder X     |
-| Software           | DisplayCal   |
+| Parameter        | Value                                 |
+| ---------------- | ------------------------------------- |
+| Calibration date | 2026-06-30                            |
+| Instrument       | Spyder X                              |
+| Software         | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
 
 
 **Calibration target**
