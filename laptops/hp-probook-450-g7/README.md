@@ -51,7 +51,7 @@ Official product page: <https://www.hp.com/us-en/laptops/business/probook-400/pr
 |         DCI-P3         |           ~ 39%            |               43.99%                |
 |       Adobe-RGB        |             -              |               42.79%                |
    
-Color depth: 8 bit    
+**Color depth:** 8 bit    
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>

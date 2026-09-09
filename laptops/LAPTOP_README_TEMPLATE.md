@@ -48,7 +48,7 @@ Official product page: [URL]
 |         DCI-P3         |          ~ 66-70%          |             :question:              |
 |       Adobe-RGB        |             -              |             :question:              |
 
-Color depth: X bit    
+**Color depth:** X bit    
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>

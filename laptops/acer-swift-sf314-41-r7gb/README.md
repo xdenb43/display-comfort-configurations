@@ -50,7 +50,7 @@ Official product page: <https://www.acer.com/ru-ru/support/product-support/SF314
 |         DCI-P3         |           ~ 47%            |               42.29%                |
 |       Adobe-RGB        |           ~ 47%            |               41.16%                |
    
-Color depth: 6 bit    
+**Color depth:** 6 bit    
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>

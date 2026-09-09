@@ -50,7 +50,7 @@ Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2
 |         DCI-P3         |          ~ 66-70%          |                70.8%                |
 |       Adobe-RGB        |             -              |               67.37%                |
 
-Color depth: 8 bit    
+**Color depth:** 8 bit    
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
