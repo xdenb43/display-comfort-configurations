@@ -42,12 +42,16 @@ Official product page:  <https://www.dahuasecurity.com/mena/products/All-Product
 
 ### Color characteristics  
 
-- Wide color gamut (WCG) declared by manufacturer  
-- Known color gamut:  
-    - sRGB: ~ 99%  
-    - NTSC: 85%  
-    - DCI-P3: Not specified  
-- Color depth: 8 bit + FRC  
+**Gamut coverage**
+|      Color gamut       | Declared/known<br>coverage | Calibrated and measured<br>coverage |
+| :--------------------: | :------------------------: | :---------------------------------: |
+| Wide color gamut (WDC) |     :heavy_check_mark:     |                  -                  |
+|          sRGB          |           ~ 99%            |               99.95%                |
+|          NTSC          |           ~ 85%            |                  -                  |
+|         DCI-P3         |             -              |               91.15%                |
+|       Adobe-RGB        |             -              |               81.91%                |
+   
+**Color depth:** 8 bit + FRC 
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
