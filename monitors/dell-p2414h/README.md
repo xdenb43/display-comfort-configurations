@@ -1,4 +1,4 @@
-<!-- PAGE_STATUS: DRAFT -->
+<!-- PAGE_STATUS: OK -->
 
 # DELL P2414H  
 
@@ -50,7 +50,7 @@ Official product page:  <https://www.dell.com/support/product-details/en-us/prod
 |         DCI-P3         |             -              |               74.45%                |
 |       Adobe-RGB        |             -              |               72.05%                |
    
-Color depth: 8 bit    
+**Color depth:** 8 bit    
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
