@@ -7,8 +7,8 @@
 Official product page: [URL]
 
 [![Page status](badges/status.svg)](#)
-[![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-configuration-database/laptops/$DEVICE/badges/icc.html)
-[![Verification report](badges/report.svg)](https://xdenb43.github.io/display-configuration-database/laptops/$DEVICE/badges/report.html)
+[![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/badges/icc.html)
+[![Verification report](badges/report.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/badges/report.html)
 
 ## Table of contents
 
@@ -89,10 +89,10 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 > Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
 
 ### ICC/ICM profile
-- [ICC profile](https://xdenb43.github.io/display-configuration-database/laptops/$DEVICE/$PANEL_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
+- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/$PANEL_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
 
 ### Reports  
-- [Verification report (HTML)](https://xdenb43.github.io/display-configuration-database/laptops/$DEVICE/Measurement_Report_$PANEL.html)
+- [Verification report (HTML)](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/Measurement_Report_$PANEL.html)
 - [Verification report (PDF)](Measurement_Report_$PANEL.pdf)
 
 <p align="right">

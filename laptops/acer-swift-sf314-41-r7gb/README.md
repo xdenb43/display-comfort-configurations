@@ -9,8 +9,8 @@ Calibration optimized for visual comfort using Spyder X and DisplayCAL.
 Official product page: <https://www.acer.com/ru-ru/support/product-support/SF314-41/downloads>
 
 [![Page status](badges/status.svg)](#)
-[![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-configuration-database/laptops/acer-swift-sf314-41-r7gb/badges/icc.html)
-[![Verification report](badges/report.svg)](https://xdenb43.github.io/display-configuration-database/laptops/acer-swift-sf314-41-r7gb/badges/report.html)
+[![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/acer-swift-sf314-41-r7gb/badges/icc.html)
+[![Verification report](badges/report.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/acer-swift-sf314-41-r7gb/badges/report.html)
 
 ## Table of contents
 
@@ -84,10 +84,10 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 ## Downloads
 
 ### ICC/ICM profile
-- [ICC profile](https://xdenb43.github.io/display-configuration-database/laptops/acer-swift-sf314-41-r7gb/LP140WFA-SPD1_D6500_2.2_F-S_XYZLUT_MTX.icm)
+- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/laptops/acer-swift-sf314-41-r7gb/LP140WFA-SPD1_D6500_2.2_F-S_XYZLUT_MTX.icm)
 
 ### Reports  
-- [Verification report (HTML)](https://xdenb43.github.io/display-configuration-database/laptops/acer-swift-sf314-41-r7gb/Measurement_Report_LP140WFA-SPD1.html)
+- [Verification report (HTML)](https://xdenb43.github.io/display-comfort-configurations/laptops/acer-swift-sf314-41-r7gb/Measurement_Report_LP140WFA-SPD1.html)
 - [Verification report (PDF)](Measurement_Report_LP140WFA-SPD1.pdf)
 
 <p align="right">

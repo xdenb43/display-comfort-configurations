@@ -9,8 +9,8 @@ Calibration optimized for visual comfort using Spyder X and DisplayCAL.
 Official product page:  <https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Gaming-Series/LM27-E331A>  
 
 [![Page status](badges/status.svg)](#)
-[![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-configuration-database/monitors/dahua-lm27-e331/badges/icc.html)
-[![Verification report](badges/report.svg)](https://xdenb43.github.io/display-configuration-database/monitors/dahua-lm27-e331/badges/report.html)
+[![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/badges/icc.html)
+[![Verification report](badges/report.svg)](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/badges/report.html)
 
 ## Table of contents
 
@@ -109,10 +109,10 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 > Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
 
 ### ICC/ICM profile
-- [ICC profile](https://xdenb43.github.io/display-configuration-database/monitors/dahua-lm27-e331/DHI-LM27-E331_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
+- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/DHI-LM27-E331_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
 
 ### Reports  
-- [Verification report (HTML)](https://xdenb43.github.io/display-configuration-database/monitors/dahua-lm27-e331/Measurement_Report_DHI-LM27-E331.html)
+- [Verification report (HTML)](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/Measurement_Report_DHI-LM27-E331.html)
 - [Verification report (PDF)](Measurement_Report_DHI-LM27-E331.pdf)
 
 <p align="right">

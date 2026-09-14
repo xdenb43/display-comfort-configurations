@@ -9,8 +9,8 @@ Calibration optimized for visual comfort using Spyder X and DisplayCAL.
 Official product page: <https://www.hp.com/us-en/laptops/business/probook-400/product-card/hp-probook-450-g7.html>
 
 [![Page status](badges/status.svg)](#)
-[![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-configuration-database/laptops/hp-probook-450-g7/badges/icc.html)
-[![Verification report](badges/report.svg)](https://xdenb43.github.io/display-configuration-database/laptops/hp-probook-450-g7/badges/report.html)
+[![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/hp-probook-450-g7/badges/icc.html)
+[![Verification report](badges/report.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/hp-probook-450-g7/badges/report.html)
 
 ## Table of contents
 
@@ -85,10 +85,10 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 ## Downloads
 
 ### ICC/ICM profile
-- [ICC profile](https://xdenb43.github.io/display-configuration-database/laptops/hp-probook-450-g7/BOE0852_D6500_2.2_M-S_XYZLUT_MTX.icm)
+- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/laptops/hp-probook-450-g7/BOE0852_D6500_2.2_M-S_XYZLUT_MTX.icm)
 
 ### Reports  
-- [Verification report (HTML)](https://xdenb43.github.io/display-configuration-database/laptops/hp-probook-450-g7/Measurement_Report_BOE0852.html)
+- [Verification report (HTML)](https://xdenb43.github.io/display-comfort-configurations/laptops/hp-probook-450-g7/Measurement_Report_BOE0852.html)
 - [Verification report (PDF)](Measurement_Report_BOE0852.pdf)
 
 <p align="right">
