@@ -14,6 +14,8 @@ This repository contains display settings, ICC/ICM color profiles, verification 
 [![TVs](https://img.shields.io/github/directory-file-count/xdenb43/display-comfort-configurations/tv?type=dir&label=TVs&color=informational)](https://github.com/xdenb43/display-comfort-configurations/tree/main/tv)
 <a href=".meta/draft-pages/"><img align="right" src=".meta/draft-pages.svg" alt="Draft pages"></a>
 
+<p align="center">Documentation: en English &middot; <a href="README_RU.md">🇷🇺 Русский</a></p>
+
 ## Table of contents
 
 - [Repository structure](#repository-structure)
