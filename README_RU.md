@@ -13,7 +13,7 @@
 <a href=".meta/draft-pages/"><img align="right" src=".meta/draft-pages.svg" alt="Черновики"></a>
 
 <p align="center">
-  ❤️ <a href="https://pay.cloudtips.ru/p/88930546">Поддержать проект</a>
+  ❤️ <a href="https://pay.cloudtips.ru/p/88930546">Поддержать проект</a> ❤️
 </p>
 
 
