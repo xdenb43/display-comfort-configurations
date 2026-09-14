@@ -3,9 +3,7 @@
 
 A database of display configurations, calibration data and measurements focused on long-term visual comfort, readability and stable image reproduction.
 
-This repository contains display settings, ICC/ICM color profiles, verification reports, measurements and engineering documentation for monitors, laptops, smartphones, tablets and TVs.
-
-[🇷🇺 Русская версия](README_ru.md)
+This repository contains display settings, ICC/ICM color profiles, verification reports, measurements and engineering documentation for different device types.
 
 [![Monitors](https://img.shields.io/github/directory-file-count/xdenb43/display-comfort-configurations/monitors?type=dir&label=Monitors&color=informational)](https://github.com/xdenb43/display-comfort-configurations/tree/main/monitors)
 [![Laptops](https://img.shields.io/github/directory-file-count/xdenb43/display-comfort-configurations/laptops?type=dir&label=Laptops&color=informational)](https://github.com/xdenb43/display-comfort-configurations/tree/main/laptops)
@@ -14,7 +12,9 @@ This repository contains display settings, ICC/ICM color profiles, verification 
 [![TVs](https://img.shields.io/github/directory-file-count/xdenb43/display-comfort-configurations/tv?type=dir&label=TVs&color=informational)](https://github.com/xdenb43/display-comfort-configurations/tree/main/tv)
 <a href=".meta/draft-pages/"><img align="right" src=".meta/draft-pages.svg" alt="Draft pages"></a>
 
-<p align="center">Documentation: en English &middot; <a href="README_RU.md">🇷🇺 Русский</a></p>
+<p align="center">
+  <strong>en English</strong> · <a href="README_RU.md">ru Русский</a>
+</p>
 
 ## Table of contents
 
@@ -40,11 +40,11 @@ display-comfort-configurations/
 ├── tv/
 └── .meta/
 ```
-Each device directory is self-contained and may include  
+Each device directory is ***self-contained*** and may include  
 - documentation  
-- display configuration  
-- color profiles  
-- calibration verification reports  
+- display configuration for **specific objective**  
+- color profiles (ICC/ICM file)  
+- post-calibration verification report  
 - additional measurements or notes  
 
 ## Device categories
@@ -62,22 +62,25 @@ Each device directory is self-contained and may include
 
 The repository follows a physics-first and verification-first approach.  
 - Display behavior is determined primarily by the physical characteristics of the display.
-- Settings are selected based on the display's hardware characteristics and, where available, real measurements.
-- Monitor calibration is performed through the display's hardware controls whenever possible.
-- ICC/ICM profiles complement display calibration and color management; they do not change the physical properties of the display.
-- Smartphone and tablet entries primarily document daily-use configurations optimized for long-term visual comfort, readability and appropriate luminance.
-- Verification reports and measurements are provided whenever available to document the resulting display behavior.
-- Changes to calibration or configuration parameters are made only after verification rather than by assumption.
+- Display settings are selected based on the display's hardware characteristics and, where available, real measurements.
+- Monitors and laptops:
+  - Display calibration is performed primarily using the display's own hardware controls whenever possible.
+  - ICC/ICM color profiles complement display calibration; they do not change the physical properties of the display.
+  - Calibration verification reports and measurements are provided whenever available.
+- Smartphones and tablets:
+  - Priority is given to display settings for everyday use, optimized for long-term visual comfort and text readability.
+- TVs:
+  - Priority is given to color correction for entertainment content such as movies and TV shows.
 
 ## Disclaimer
 
-Calibration and display configuration results are device-specific.
+Calibration and display configuration results are ***device-specific***.
 
 Even identical display models may differ due to manufacturing tolerances, panel revisions, aging, firmware, display modes and user settings. Published configurations and profiles should therefore be considered reference configurations and may not provide identical results on another unit. 
 
 ## License
 
-Unless otherwise stated, all documentation is released under the MIT License.  
+Unless otherwise stated, all documentation is released under the [MIT License](LICENSE).  
 
 Calibration profiles, verification reports, measurements and configuration recommendations are provided for educational and research purposes.  
 
