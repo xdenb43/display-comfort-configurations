@@ -13,7 +13,7 @@ This repository contains display settings, ICC/ICM color profiles, verification 
 <a href=".meta/draft-pages/"><img align="right" src=".meta/draft-pages.svg" alt="Draft pages"></a>
 
 <p align="center">
-  ❤️ <a href="https://pay.cloudtips.ru/p/88930546">Support the project</a>
+  ❤️ <a href="https://pay.cloudtips.ru/p/88930546">Support the project</a> ❤️
 </p>
 
 <p align="center">
