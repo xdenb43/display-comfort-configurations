@@ -3,7 +3,7 @@
 
 A database of display configurations, calibration data and measurements focused on long-term visual comfort, readability and stable image reproduction.
 
-This repository contains display settings, ICC/ICM color profiles, verification reports, measurements and engineering documentation for different device types.
+This repository contains display settings, ICC/ICM color profiles, verification reports, measurements and engineering documentation for monitors, laptops, smartphones, tablets and TVs.  
 
 [![Monitors](https://img.shields.io/github/directory-file-count/xdenb43/display-comfort-configurations/monitors?type=dir&label=Monitors&color=informational)](https://github.com/xdenb43/display-comfort-configurations/tree/main/monitors)
 [![Laptops](https://img.shields.io/github/directory-file-count/xdenb43/display-comfort-configurations/laptops?type=dir&label=Laptops&color=informational)](https://github.com/xdenb43/display-comfort-configurations/tree/main/laptops)
@@ -13,7 +13,7 @@ This repository contains display settings, ICC/ICM color profiles, verification 
 <a href=".meta/draft-pages/"><img align="right" src=".meta/draft-pages.svg" alt="Draft pages"></a>
 
 <p align="center">
-  <strong>en English</strong> · <a href="README_RU.md">ru Русский</a>
+  <strong>English</strong> · <a href="README_RU.md">Русский</a>
 </p>
 
 ## Table of contents
@@ -42,9 +42,9 @@ display-comfort-configurations/
 ```
 Each device directory is ***self-contained*** and may include  
 - documentation  
-- display configuration for **specific objective**  
-- color profiles (ICC/ICM file)  
-- post-calibration verification report  
+- display configuration for a **specific use case** 
+- ICC/ICM color profiles  
+- verification reports  
 - additional measurements or notes  
 
 ## Device categories
@@ -70,7 +70,7 @@ The repository follows a physics-first and verification-first approach.
 - Smartphones and tablets:
   - Priority is given to display settings for everyday use, optimized for long-term visual comfort and text readability.
 - TVs:
-  - Priority is given to color correction for entertainment content such as movies and TV shows.
+  - Priority is given to display settings and color correction for entertainment content such as movies and TV shows.
 
 ## Disclaimer
 
