@@ -40,7 +40,7 @@ display-comfort-configurations/
 ├── tv/
 └── .meta/
 ```
-Each device directory is ***self-contained*** and may include  
+Each device directory is ***self-contained*** and may include:  
 - documentation  
 - display configuration for a **specific use case** 
 - ICC/ICM color profiles  
