@@ -1,4 +1,4 @@
-<!-- PAGE_STATUS: DRAFT -->
+<!-- PAGE_STATUS: OK -->
 
 # Huawei MateView HSN-CBA  
 
@@ -99,7 +99,7 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 > Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
 
 ### ICC/ICM profile
-- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/monitors/huawei-mateview-hsn-cba/Huawei-MateView-HSN-CBA_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
+- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/monitors/huawei-mateview-hsn-cba/Huawei-MateView-HSN-CBA_120cdm2_D6500_2.2_F-S_XYZLUT_MTX.icm)
 
 ### Reports  
 - [Verification report (HTML)](https://xdenb43.github.io/display-comfort-configurations/monitors/huawei-mateview-hsn-cba/Measurement_Report_Huawei-MateView-HSN-CBA.html)
