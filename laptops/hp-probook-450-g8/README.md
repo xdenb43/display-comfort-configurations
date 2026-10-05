@@ -107,7 +107,7 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 > - Daylight: 120–140 cd/m²
 > - Bright daylight: 140–160 cd/m²
 
-![Brightness vs. Luminance](brightness_vs_luminance_BOE0852.png) 
+![Brightness vs. Luminance](brightness_vs_luminance_BOE09D8.png) 
 
 | OSD Brightness (%) | Luminance (cd/m²) |
 | :----------------: | :---------------: |
