@@ -118,7 +118,7 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 |         40         |        55         |
 |      -> 50 <-      |     -> 79 <-      |
 |      -> 60 <-      |     -> 100 <-     |
-|      -> 97 <-      |     -> 119 <-     |
+|      -> 67 <-      |     -> 119 <-     |
 |      -> 70 <-      |     -> 128 <-     |
 |      -> 74 <-      |     -> 141 <-     |
 |      -> 80 <-      |     -> 164 <-     |
