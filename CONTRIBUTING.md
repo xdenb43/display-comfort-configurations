@@ -5,22 +5,17 @@ Display Configuration Database.
 
 The `main` branch contains only completed and verified changes.
 
----
+## 1. Add or update device
 
-## 1. Add or Update Device
-
-Each new device must be added in a separate Git branch.
+Each device must be added or updated in a separate Git branch.
 
 ### 1.1. Update `main`
 
-Switch to the `main` branch and update it from GitHub:
+Switch to the `main` branch and update it from GitHub, make sure the working tree is clean:
 ```bash
 git switch main
-git pull --ff-only origin main
-```
-
-Make sure the working tree is clean:
-```bash
+git pull --ff-only origin main # secure update
+# git pull --rebase origin main # agressive update
 git status
 ```
 
@@ -29,7 +24,7 @@ Expected:
 nothing to commit, working tree clean
 ```
 
-### 1.2. Create a Device Branch
+### 1.2. Create a device branch
 
 Create the branch from the updated main branch.
 
@@ -70,7 +65,7 @@ smartphones
 tv
 ```
 
-Use ```kebab-case``` (```-```) whenever possible.
+Use `kebab-case` (`-`) whenever possible.
 
 Prefer:
 ```text
@@ -93,22 +88,22 @@ Example:
 git switch -c laptops/huawei-matebook-x-pro-2020
 ```
 
-### 1.3. Add the Device
+### 1.3. Add or update the device
 Perform all work for the new device inside the device branch.
 
 Add all required files and information, including where applicable:
 
-```README.md``` with ```<!-- PAGE_STATUS: DRAFT -->```
-ICC/ICM profile
-DisplayCAL verification report
-metadata
-badges
-images
-other required device files
+- `README.md` with `<!-- PAGE_STATUS: DRAFT -->`  
+- ICC/ICM profile
+- DisplayCAL verification report
+- metadata
+- badges
+- images
+- other required device files
 
-Do not modify the ```main``` branch directly.
+Do not modify the `main` branch directly.
 
-### 1.4. Run Local Checks
+### 1.4. Run local checks
 Before creating a Pull Request, run all applicable repository checks.
 
 Check the working tree:
@@ -134,7 +129,7 @@ Run the repository validation scripts and any other applicable checks.
 
 All checks must pass before the device is considered ready for review.
 
-### 1.5. Commit the Changes
+### 1.5. Commit the changes
 Commit messages must use the following format:
 ```text
 <Type>: <Description>
@@ -168,7 +163,7 @@ git commit -m "Add: Huawei MateView HWV6E22"
 Additional commits are allowed while the device is being developed,
 verified, or corrected.
 
-### 1.6. Push the Device Branch
+### 1.6. Push the device branch
 Push the branch to GitHub:
 ```bash
 git push -u origin <device-type>/<device-name>
@@ -179,7 +174,7 @@ Example:
 git push -u origin laptops/huawei-matebook-x-pro-2020
 ```
 
-## 2. Verify the Device on GitHub
+## 2. Verify the device on GitHub
 Before creating or merging the Pull Request, verify the new device page
 directly on GitHub.
 
@@ -203,9 +198,9 @@ Make sure that all links point to the intended files and pages.
 If an issue is found, fix it in the same device branch, commit the change,
 and push the branch again.
 
-If all is OK - set ```<!-- PAGE_STATUS: OK -->``` 
+If all is OK - set `<!-- PAGE_STATUS: OK -->` to device `README.md`
 
-## 3. Pull Request
+## 3. Pull request
 Create a Pull Request on GitHub.
 
 The Pull Request must use:
@@ -234,7 +229,7 @@ Before merging, verify:
 ## 4. Merge
 Pull Requests for completed devices must use:
 
-**Squash and merge**
+**--> Squash and merge <--**
 
 Squashing keeps the main branch history clean and makes each completed
 device a single logical change.
@@ -253,13 +248,13 @@ After squash and merge, main should contain one logical commit:
 Add: Huawei MateView HWV6E22
 ```
 
-## 5. Delete the Remote Branch
+## 5. Delete the remote branch
 After the Pull Request has been successfully merged, delete the device
 branch on GitHub using the Delete branch button.
 
 The branch is no longer needed because its changes are now part of ```main```.
 
-## 6. Update the Local main
+## 6. Update the local `main`
 
 After merging the Pull Request, switch back to main:
 
@@ -279,7 +274,7 @@ Expected:
 nothing to commit, working tree clean
 ```
 
-## 7. Delete the Local Branch
+## 7. Delete the local branch
 
 Delete the merged local device branch:
 ```bash
