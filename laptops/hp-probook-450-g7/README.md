@@ -6,7 +6,7 @@
 
 Calibration optimized for visual comfort using Spyder X and DisplayCAL.
 
-Official product page: <https://www.hp.com/us-en/laptops/business/probook-400/product-card/hp-probook-450-g7.html>
+Official product page: <https://hp.it-shop.bg/uploaded/2/6/ProBook-450-G7-QS.pdf>
 
 [![Page status](badges/status.svg)](#)
 [![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/hp-probook-450-g7/badges/icc.html)
@@ -67,7 +67,7 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 **Calibration environment**
 | Parameter        | Value                                 |
 | ---------------- | ------------------------------------- |
-| Calibration date | 2026-09-03                            |
+| Calibration date | 2026-09-03 (YYYY-MM-DD)               |
 | Instrument       | Spyder X                              |
 | Software         | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
 

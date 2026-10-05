@@ -65,7 +65,7 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 **Calibration environment**
 | Parameter        | Value                                 |
 | ---------------- | ------------------------------------- |
-| Calibration date | 2026-09-04                            |
+| Calibration date | 2026-09-04 (YYYY-MM-DD)               |
 | Instrument       | Spyder X                              |
 | Software         | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
 
