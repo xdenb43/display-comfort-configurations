@@ -1,4 +1,4 @@
-<!-- PAGE_STATUS: DRAFT -->
+<!-- PAGE_STATUS: OK -->
 
 # HP ProBook 450 G8    
 
