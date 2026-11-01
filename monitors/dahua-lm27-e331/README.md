@@ -46,12 +46,12 @@ Official product page:  <https://www.dahuasecurity.com/mena/products/All-Product
 |      Color gamut       | Declared/known<br>coverage | Calibrated and measured<br>coverage |
 | :--------------------: | :------------------------: | :---------------------------------: |
 | Wide color gamut (WDC) |     :heavy_check_mark:     |         :heavy_check_mark:          |
-|          sRGB          |           ~ 99%            |               99.95%                |
+|          sRGB          |           ~ 99%            |               99.92%                |
 |          NTSC          |           ~ 85%            |                  -                  |
-|         DCI-P3         |             -              |               91.15%                |
-|       Adobe-RGB        |             -              |               81.91%                |
+|         DCI-P3         |             -              |               90.38%                |
+|       Adobe-RGB        |             -              |               80.97%                |
    
-**Color depth:** 8 bit + FRC 
+**Color depth:** 8 bit  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -64,24 +64,24 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 ### Environment and targets
 
 **Calibration environment**
-| Parameter                  | Value                                 |
-| -------------------------- | ------------------------------------- |
-| Calibration date           | 2026-10-30 (YYYY-MM-DD)               |
-| Instrument                 | Spyder X                              |
-| Software                   | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
-| White point setup software | HCFR 2019 (Spyder X version)          |
-
+| Parameter                        | Value                                 |
+| -------------------------------- | ------------------------------------- |
+| Calibration date                 | 2026-10-30 (YYYY-MM-DD)               |
+| Instrument                       | Spyder X                              |
+| White point setup software       | HCFR 2019 (Spyder X version)          |
+| Calibration & profiling Software | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
 
 **Calibration target**
 | Parameter          | Value        |
 | ------------------ | ------------ |
+| Target usage       | Office + web |
 | Target white point | D65 (6500 K) |
 | Target gamma       | 2.2          |
 | Target luminance   | 120 cd/m²    |
 
 ### OSD settings  
 
-The white point D65 set using a 10% to 100% grayscale
+The white point D65 is set using a 10% to 100% grayscale
 
 - Display menu:  
     - Brightness: 22  
@@ -124,7 +124,7 @@ The white point D65 set using a 10% to 100% grayscale
 
 ## Brightness response curve  
 
-Pre-calibration measurement with [DisplayCal interactive mode](https://displaycal.net/#settings_calibration)  
+Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com/doc/spotread.html)
 
 > [!NOTE]
 > Recommended luminance levels:
@@ -139,12 +139,12 @@ Pre-calibration measurement with [DisplayCal interactive mode](https://displayca
 | OSD Brightness (%) | Luminance (cd/m²) |
 | :----------------: | :---------------: |
 |         0          |        28         |
-|         10          |        60         |
-|         -> 16 <-        |        -> 81 <-         |
+|         10         |        60         |
+|      -> 16 <-      |     -> 81 <-      |
 |         20         |        95         |
-|      -> 22 <-      |     -> 101 <-      |
+|      -> 22 <-      |     -> 101 <-     |
 |      -> 27 <-      |     -> 120 <-     |
-|      -> 30 <-      |      130      |
+|         30         |        130        |
 |      -> 33 <-      |     -> 140 <-     |
 |      -> 39 <-      |     -> 160 <-     |
 |         40         |        163        |
