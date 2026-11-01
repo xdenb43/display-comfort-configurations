@@ -64,11 +64,12 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 ### Environment and targets
 
 **Calibration environment**
-| Parameter        | Value                                 |
-| ---------------- | ------------------------------------- |
-| Calibration date | 2026-06-30 (YYYY-MM-DD)               |
-| Instrument       | Spyder X                              |
-| Software         | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
+| Parameter                  | Value                                 |
+| -------------------------- | ------------------------------------- |
+| Calibration date           | 2026-10-30 (YYYY-MM-DD)               |
+| Instrument                 | Spyder X                              |
+| Software                   | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
+| White point setup software | HCFR 2019 (Spyder X version)          |
 
 
 **Calibration target**
@@ -80,15 +81,17 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 
 ### OSD settings  
 
+The white point D65 set using a 10% to 100% grayscale
+
 - Display menu:  
     - Brightness: 22  
     - Contrast: 50  
-    - Black level: 50  
+    - Black level: 49  
     - Sharpness: 50  
 - Colors menu:  
     - Red: 50  
     - Green: 49  
-    - Blue: 43  
+    - Blue: 44  
 - Gaming menu:  
     - FreeSync: OFF  
     - Overdrive: OFF  
@@ -109,7 +112,7 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 > Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
 
 ### ICC/ICM profile
-- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/DHI-LM27-E331_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
+- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/DHI-LM27-E331_120cdm2_2.2_M-S_XYZLUT_MTX.icm)
 
 ### Reports  
 - [Verification report (HTML)](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/Measurement_Report_DHI-LM27-E331.html)
@@ -131,24 +134,26 @@ Pre-calibration measurement with [DisplayCal interactive mode](https://displayca
 > - Daylight: 120–140 cd/m²
 > - Bright daylight: 140–160 cd/m²
 
-![Brightness vs. Luminance](brightness_vs_luminance_dhi_lm27_e331.png) 
+![Brightness vs. Luminance](brightness_vs_luminance_dhi-lm27-e331.png) 
 
 | OSD Brightness (%) | Luminance (cd/m²) |
 | :----------------: | :---------------: |
 |         0          |        28         |
-|         4          |        40         |
-|         10         |        60         |
-|         13         |        70         |
-|      -> 16 <-      |     -> 80 <-      |
-|         17         |        85         |
-|         19         |        90         |
-|      -> 22 <-      |     -> 100 <-     |
+|         10          |        60         |
+|         -> 16 <-        |        -> 81 <-         |
+|         20         |        95         |
+|      -> 22 <-      |     -> 101 <-      |
 |      -> 27 <-      |     -> 120 <-     |
+|      -> 30 <-      |      130      |
 |      -> 33 <-      |     -> 140 <-     |
-|         36         |        150        |
-|         50         |        197        |
-|         75         |        276        |
-|        100         |        351        |
+|      -> 39 <-      |     -> 160 <-     |
+|         40         |        163        |
+|         50         |        196        |
+|         60         |        227        |
+|         70         |        259        |
+|         80         |        290        |
+|         90         |        320        |
+|        100         |        350        |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
