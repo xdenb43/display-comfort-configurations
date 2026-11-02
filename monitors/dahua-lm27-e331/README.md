@@ -84,7 +84,7 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 The white point D65 is set using a 10% to 100% grayscale
 
 - Display menu:  
-    - Brightness: 22  
+    - Brightness: 27  
     - Contrast: 50  
     - Black level: 49  
     - Sharpness: 50  
