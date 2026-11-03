@@ -5,6 +5,23 @@ Display Configuration Database.
 
 The `main` branch contains only completed and verified changes.
 
+## Table of сontents
+
+- [1. Add or update device](#1-add-or-update-device)
+  - [1.1. Update `main`](#11-update-main)
+  - [1.2. Create a device branch](#12-create-a-device-branch)
+  - [1.3. Add or update the device](#13-add-or-update-the-device)
+  - [1.4. Run local checks](#14-run-local-checks)
+  - [1.5. Commit the changes](#15-commit-the-changes)
+  - [1.6. Push the device branch](#16-push-the-device-branch)
+- [2. Verify the device on GitHub](#2-verify-the-device-on-github)
+- [3. Pull request](#3-pull-request)
+- [4. Merge](#4-merge)
+- [5. Delete the remote branch](#5-delete-the-remote-branch)
+- [6. Update the local `main`](#6-update-the-local-main)
+- [7. Delete the local branch](#7-delete-the-local-branch)
+- [8. Complete Workflow](#8-complete-workflow)
+
 ## 1. Add or update device
 
 Each device must be added or updated in a separate Git branch.
@@ -23,6 +40,9 @@ Expected:
 ```text
 nothing to commit, working tree clean
 ```
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ### 1.2. Create a device branch
 
@@ -87,6 +107,9 @@ Example:
 ```bash
 git switch -c laptops/huawei-matebook-x-pro-2020
 ```
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ### 1.3. Add or update the device
 Perform all work for the new device inside the device branch.
@@ -102,6 +125,10 @@ Add all required files and information, including where applicable:
 - other required device files
 
 Do not modify the `main` branch directly.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ### 1.4. Run local checks
 Before creating a Pull Request, run all applicable repository checks.
@@ -128,6 +155,10 @@ git diff --cached
 Run the repository validation scripts and any other applicable checks.
 
 All checks must pass before the device is considered ready for review.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ### 1.5. Commit the changes
 Commit messages must use the following format:
@@ -163,6 +194,10 @@ git commit -m "Add: Huawei MateView HWV6E22"
 Additional commits are allowed while the device is being developed,
 verified, or corrected.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
+
 ### 1.6. Push the device branch
 Push the branch to GitHub:
 ```bash
@@ -173,6 +208,9 @@ Example:
 ```bash
 git push -u origin laptops/huawei-matebook-x-pro-2020
 ```
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ## 2. Verify the device on GitHub
 Before creating or merging the Pull Request, verify the new device page
@@ -200,6 +238,10 @@ and push the branch again.
 
 If all is OK - set `<!-- PAGE_STATUS: OK -->` to device `README.md`
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
+
 ## 3. Pull request
 Create a Pull Request on GitHub.
 
@@ -226,6 +268,10 @@ Before merging, verify:
 - the device page has been visually verified on GitHub;
 - the Pull Request contains the expected changes.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
+
 ## 4. Merge
 Pull Requests for completed devices must use:
 
@@ -247,12 +293,19 @@ After squash and merge, main should contain one logical commit:
 ```text
 Add: Huawei MateView HWV6E22
 ```
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ## 5. Delete the remote branch
 After the Pull Request has been successfully merged, delete the device
 branch on GitHub using the Delete branch button.
 
 The branch is no longer needed because its changes are now part of ```main```.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ## 6. Update the local `main`
 
@@ -273,6 +326,9 @@ Expected:
 ```text
 nothing to commit, working tree clean
 ```
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ## 7. Delete the local branch
 
@@ -292,6 +348,9 @@ The normal working state should be:
 ```text
 * main
 ```
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
 
 ## 8. Complete Workflow
 
@@ -316,3 +375,7 @@ The complete workflow is:
 ```
 
 The ```main``` branch should always contain only completed and verified changes.
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Toc</a>
+</p>
