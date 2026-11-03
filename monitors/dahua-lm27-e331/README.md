@@ -2,9 +2,9 @@
 
 # Dahua DHI-LM27-E331A   
 
-Consumer 27-inch IPS gaming monitor featuring a PFS E-LED backlight.
+27-inch QHD IPS gaming monitor featuring a **wide-gamut LED backlight**, 180 Hz refresh rate, Adaptive-Sync, and 1 ms MPRT response time.
 
-Calibration optimized for visual comfort using Spyder X and DisplayCAL.
+Calibration objective: **comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
 
 Official product page:  <https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Gaming-Series/LM27-E331A>  
 
@@ -32,9 +32,9 @@ Official product page:  <https://www.dahuasecurity.com/mena/products/All-Product
 | Panel type          | IPS             |
 | Aspect ratio        | 16:9            |
 | Resolution          | 2560 × 1440     |
-| Backlight           | E-LED WCG (PFS) |
+| Backlight           | E-LED WCG       |
 | Refresh rate        | 180 Hz          |
-| Typical brightness  | 300 nits        |
+| Brightness(typ)     | 300 nits        |
 | Contrast ratio      | 1000:1          |
 | Viewing angle (H/V) | 178°(H)/178°(V) |
 | Response time       | 1 ms            |
@@ -51,15 +51,13 @@ Official product page:  <https://www.dahuasecurity.com/mena/products/All-Product
 |         DCI-P3         |             -              |               90.38%                |
 |       Adobe-RGB        |             -              |               80.97%                |
    
-**Color depth:** 8 bit  
+**Color depth:** `8 bit`  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
 </p>
 
 ## Calibration  
-
-Calibration objective: **Visual comfort with reduced eye strain during prolonged use.**  
 
 ### Environment and targets
 
@@ -72,12 +70,12 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 | Calibration & profiling Software | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
 
 **Calibration target**
-| Parameter          | Value        |
-| ------------------ | ------------ |
-| Target usage       | Office + web |
-| Target white point | D65 (6500 K) |
-| Target gamma       | 2.2          |
-| Target luminance   | 120 cd/m²    |
+| Parameter          | Value                         |
+| ------------------ | ----------------------------- |
+| Preset             | Office & Web (D65, Gamma 2.2) |
+| Target white point | D65 (6500 K)                  |
+| Target gamma       | 2.2                           |
+| Target luminance   | 120 cd/m²                     |
 
 ### OSD settings  
 
