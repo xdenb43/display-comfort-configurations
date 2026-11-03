@@ -4,6 +4,8 @@
 
 [Short description of the device and display $PANEL.]
 
+Calibration objective: **Comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
+
 Official product page: [URL]
 
 [![Page status](badges/status.svg)](#)
@@ -56,8 +58,6 @@ Official product page: [URL]
 
 ## Calibration  
 
-Calibration objective: **Visual comfort with reduced eye strain during prolonged use.**  
-
 ### Environment and targets
 
 **Calibration environment**
@@ -69,14 +69,18 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 
 
 **Calibration target**
-| Parameter          | Value        |
-| ------------------ | ------------ |
-| Target white point | D65 (6500 K) |
-| Target gamma       | 2.2          |
+| Parameter          | Value              |
+| ------------------ | ------------------ |
+| Preset             | Laptop (Gamma 2.2) |
+| Target white point | D65 (6500 K)       |
+| Target luminance   | 120 cd/m²          |
+| Target gamma       | 2.2                |
 
-### OSD settings  
+### OSD, system and app settings  
 
-- Display Manager -> Color Temperature: Default
+- Display brightness: 41   
+- Display manager application:   
+    - Color Temperature: Default  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -85,7 +89,7 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 ## Downloads
 
 > [!IMPORTANT]  
-> The ICC profile was created using the OSD settings listed above.  
+> The ICC profile was created using theODS, system and app settings listed above.  
 > Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
 
 ### ICC/ICM profile
@@ -115,17 +119,22 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 
 | OSD Brightness (%) | Luminance (cd/m²) |
 | :----------------: | :---------------: |
-|         0          |        7          |
+|         0          |         7         |
 |         10         |        21         |
-|         20         |        41         |
-|         30         |        75         |
-|      -> 40 <-      |     -> 118 <-     |
-|         50         |        176        |
-|         60         |        244        |
-|         70         |        317        |
-|         80         |        400        |
-|         90         |        488        |
-|         100        |        584        |
+|         20         |        40         |
+|         30         |        73         |
+|      -> 32 <-      |     -> 80 <-      |
+|      -> 37 <-      |     -> 102 <-     |
+|         40         |        116        |
+|      -> 41 <-      |     -> 121 <-     |
+|      -> 44 <-      |     -> 137 <-     |
+|      -> 48 <-      |     -> 161 <-     |
+|         50         |        172        |
+|         60         |        238        |
+|         70         |        310        |
+|         80         |        391        |
+|         90         |        478        |
+|        100         |        572        |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toс</a>

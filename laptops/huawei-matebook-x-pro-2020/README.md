@@ -1,10 +1,10 @@
-<!-- PAGE_STATUS: OK -->
+<!-- PAGE_STATUS: draft -->
 
 # Huawei Matebook X Pro 2020 (MACHC-WAX9)   
 
-13.9-inch 3:2 LTPS display with a **JDI LPM139M422A** panel and wide-gamut LED backlight.
+13.9-inch 3:2 glossy LTPS touchscreen display featuring a **JDI LPM139M422A** panel.
 
-Calibration optimized for visual comfort using Spyder X and DisplayCAL.
+Calibration objective: **Comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
 
 Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2020/specs/>  
 
@@ -29,7 +29,7 @@ Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2
 | Parameter          | Value           |
 | ------------------ | --------------- |
 | Screen size        | 13.9"           |
-| Panel type         | LTPS            |
+| Panel type         | LTPS LCD        |
 | Aspect ratio       | 3:2             |
 | Resolution         | 3000 × 2000     |
 | Backlight          | LED             |
@@ -44,11 +44,11 @@ Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2
 **Gamut coverage**
 |      Color gamut       | Declared/known<br>coverage | Calibrated and measured<br>coverage |
 | :--------------------: | :------------------------: | :---------------------------------: |
-| Wide color gamut (WDC) |     :heavy_check_mark:     |         :heavy_check_mark:          |
-|          sRGB          |         ~ 97-100%          |                96.9%                |
+| Wide color gamut (WDC) |            :x:             |                 :x:                 |
+|          sRGB          |           ~ 99%            |               95.22%                |
 |          NTSC          |             -              |                  -                  |
-|         DCI-P3         |          ~ 66-70%          |                70.8%                |
-|       Adobe-RGB        |             -              |               67.37%                |
+|         DCI-P3         |           ~ 70%            |               69.72%                |
+|       Adobe-RGB        |           ~ 68%            |               65.74%                |
 
 **Color depth:** 8 bit    
 
@@ -58,27 +58,29 @@ Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2
 
 ## Calibration  
 
-Calibration objective: **Visual comfort with reduced eye strain during prolonged use.**  
-
 ### Environment and targets
 
 **Calibration environment**
 | Parameter        | Value                                 |
 | ---------------- | ------------------------------------- |
-| Calibration date | 2026-09-04 (YYYY-MM-DD)               |
+| Calibration date | 2026-11-03 (YYYY-MM-DD)               |
 | Instrument       | Spyder X                              |
 | Software         | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
 
 
 **Calibration target**
-| Parameter          | Value        |
-| ------------------ | ------------ |
-| Target white point | D65 (6500 K) |
-| Target gamma       | 2.2          |
+| Parameter          | Value              |
+| ------------------ | ------------------ |
+| Preset             | Laptop (Gamma 2.2) |
+| Target white point | D65 (6500 K)       |
+| Target luminance   | 120 cd/m²          |
+| Target gamma       | 2.2                |
 
-### OSD settings  
+### OSD, system and app settings  
 
-- Display Manager -> Color Temperature: Default
+- Display brightness: 41   
+- Display manager application:   
+    - Color Temperature: Default  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -87,11 +89,11 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 ## Downloads
 
 > [!IMPORTANT]  
-> The ICC profile was created using the OSD settings listed above.  
+> The ICC profile was created using theODS, system and app settings listed above.  
 > Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
 
 ### ICC/ICM profile
-- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/laptops/huawei-matebook-x-pro-2020/LPM139M422A_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
+- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/laptops/huawei-matebook-x-pro-2020/LPM139M422A_D6500_2.2_M-S_XYZLUT_MTX.icm)
 
 ### Reports  
 - [Verification report (HTML)](https://xdenb43.github.io/display-comfort-configurations/laptops/huawei-matebook-x-pro-2020/Measurement_Report_LPM139M422A.html)
@@ -122,12 +124,13 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 |         20         |        40         |
 |         30         |        73         |
 |      -> 32 <-      |     -> 80 <-      |
-|      -> 37 <-      |     -> 101 <-     |
-|      -> 40 <-      |     -> 116 <-     |
-|      -> 41 <-      |     -> 120 <-     |
-|      -> 45 <-      |     -> 144 <-     |
-|         50         |        173        |
-|         60         |        239        |
+|      -> 37 <-      |     -> 102 <-     |
+|         40         |        116        |
+|      -> 41 <-      |     -> 121 <-     |
+|      -> 44 <-      |     -> 137 <-     |
+|      -> 48 <-      |     -> 161 <-     |
+|         50         |        172        |
+|         60         |        238        |
 |         70         |        310        |
 |         80         |        391        |
 |         90         |        478        |
