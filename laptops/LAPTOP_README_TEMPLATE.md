@@ -2,9 +2,11 @@
 
 # [Device Name]
 
-[Short description of the device and display $PANEL.]
+[Short description of the device and display `$PANEL`.]
 
-Official product page: [URL]
+Calibration objective: **comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
+
+Official product page: <URL>
 
 [![Page status](badges/status.svg)](#)
 [![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/badges/icc.html)
@@ -16,7 +18,7 @@ Official product page: [URL]
   - [Color characteristics](#color-characteristics)
 - [Calibration](#calibration)
   - [Environment and targets](#environment-and-targets)
-  - [OSD settings](#osd-settings)
+  - [OSD, system and app settings](#osd-system-and-app-settings)
 - [Downloads](#downloads)
   - [ICC/ICM profile](#iccicm-profile)
   - [Reports](#reports)
@@ -48,7 +50,7 @@ Official product page: [URL]
 |         DCI-P3         |          ~ 66-70%          |             :question:              |
 |       Adobe-RGB        |             -              |             :question:              |
 
-**Color depth:** X bit    
+**Color depth:** `X bit`    
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -56,27 +58,28 @@ Official product page: [URL]
 
 ## Calibration  
 
-Calibration objective: **Visual comfort with reduced eye strain during prolonged use.**  
-
 ### Environment and targets
 
 **Calibration environment**
 | Parameter        | Value                                 |
 | ---------------- | ------------------------------------- |
-| Calibration date | 2026-09-03 (YYYY-MM-DD)               |
+| Calibration date | 2026-11-03 (YYYY-MM-DD)               |
 | Instrument       | Spyder X                              |
 | Software         | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
 
-
 **Calibration target**
-| Parameter          | Value        |
-| ------------------ | ------------ |
-| Target white point | D65 (6500 K) |
-| Target gamma       | 2.2          |
+| Parameter          | Value              |
+| ------------------ | ------------------ |
+| Preset             | Laptop (Gamma 2.2) |
+| Target white point | D65 (6500 K)       |
+| Target luminance   | 120 cd/m²          |
+| Target gamma       | 2.2                |
 
-### OSD settings  
+### OSD, system and app settings  
 
-- Display Manager -> Color Temperature: Default
+- Display brightness: `41`   
+- Display manager application:   
+    - Color temperature: `default`  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -85,8 +88,8 @@ Calibration objective: **Visual comfort with reduced eye strain during prolonged
 ## Downloads
 
 > [!IMPORTANT]  
-> The ICC profile was created using the OSD settings listed above.  
-> Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
+> The ICC profile was created using the OSD, system and app settings listed above.  
+> Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.    
 
 ### ICC/ICM profile
 - [ICC profile](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/$PANEL_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
@@ -115,17 +118,22 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 
 | OSD Brightness (%) | Luminance (cd/m²) |
 | :----------------: | :---------------: |
-|         0          |        7          |
+|         0          |         7         |
 |         10         |        21         |
-|         20         |        41         |
-|         30         |        75         |
-|      -> 40 <-      |     -> 118 <-     |
-|         50         |        176        |
-|         60         |        244        |
-|         70         |        317        |
-|         80         |        400        |
-|         90         |        488        |
-|         100        |        584        |
+|         20         |        40         |
+|         30         |        73         |
+|      -> 32 <-      |     -> 80 <-      |
+|      -> 37 <-      |     -> 102 <-     |
+|         40         |        116        |
+|      -> 41 <-      |     -> 121 <-     |
+|      -> 44 <-      |     -> 137 <-     |
+|      -> 48 <-      |     -> 161 <-     |
+|         50         |        172        |
+|         60         |        238        |
+|         70         |        310        |
+|         80         |        391        |
+|         90         |        478        |
+|        100         |        572        |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toс</a>
