@@ -18,7 +18,7 @@ Official product page: [URL]
   - [Color characteristics](#color-characteristics)
 - [Calibration](#calibration)
   - [Environment and targets](#environment-and-targets)
-  - [OSD settings](#osd-system-and-app-settings)
+  - [OSD, system and app settings](#osd-system-and-app-settings)
 - [Downloads](#downloads)
   - [ICC/ICM profile](#iccicm-profile)
   - [Reports](#reports)
