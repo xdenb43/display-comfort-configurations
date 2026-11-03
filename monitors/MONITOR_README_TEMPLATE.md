@@ -4,7 +4,9 @@
 
 [Short description of the device and display $PANEL.]
 
-Official product page: [URL]
+Calibration objective: **comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
+
+Official product page: <URL>
 
 [![Page status](badges/status.svg)](#)
 [![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/badges/icc.html)
@@ -32,7 +34,7 @@ Official product page: [URL]
 | Resolution          |       |
 | Backlight           |       |
 | Refresh rate        |       |
-| Typical brightness  |       |
+| Brightness(typ)     |       |
 | Contrast ratio      |       |
 | Viewing angle (H/V) |       |
 | Response time       |       |
@@ -49,7 +51,7 @@ Official product page: [URL]
 |         DCI-P3         |          ~ 66-70%          |             :question:              |
 |       Adobe-RGB        |             -              |             :question:              |
 
-**Color depth**: X bit    
+**Color depth**: `X bit`    
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
