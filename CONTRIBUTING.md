@@ -5,7 +5,7 @@ This document describes the workflow for adding and updating devices in the
 
 The `main` branch contains only completed and verified changes.
 
-## Table of сontents
+## Table of contents
 
 - [1. Add or update device](#1-add-or-update-device)
   - [1.1. Update `main`](#11-update-main)
@@ -40,6 +40,7 @@ Expected:
 ```text
 nothing to commit, working tree clean
 ```
+
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
 </p>
@@ -107,6 +108,7 @@ Example:
 ```bash
 git switch -c laptops/huawei-matebook-x-pro-2020
 ```
+
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
 </p>
@@ -208,6 +210,7 @@ Example:
 ```bash
 git push -u origin laptops/huawei-matebook-x-pro-2020
 ```
+
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
 </p>
@@ -293,6 +296,7 @@ After squash and merge, main should contain one logical commit:
 ```text
 Add: Huawei MateView HWV6E22
 ```
+
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
 </p>
@@ -326,6 +330,7 @@ Expected:
 ```text
 nothing to commit, working tree clean
 ```
+
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
 </p>
@@ -348,6 +353,7 @@ The normal working state should be:
 ```text
 * main
 ```
+
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
 </p>
