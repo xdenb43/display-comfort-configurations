@@ -18,7 +18,7 @@ Official product page: [URL]
   - [Color characteristics](#color-characteristics)
 - [Calibration](#calibration)
   - [Environment and targets](#environment-and-targets)
-  - [OSD settings](#osd-settings)
+  - [OSD settings](#osd-system-and-app-settings)
 - [Downloads](#downloads)
   - [ICC/ICM profile](#iccicm-profile)
   - [Reports](#reports)
@@ -89,8 +89,8 @@ Official product page: [URL]
 ## Downloads
 
 > [!IMPORTANT]  
-> The ICC profile was created using theODS, system and app settings listed above.  
-> Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
+> The ICC profile was created using the OSD, system and app settings listed above.  
+> Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.   
 
 ### ICC/ICM profile
 - [ICC profile](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/$PANEL_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)

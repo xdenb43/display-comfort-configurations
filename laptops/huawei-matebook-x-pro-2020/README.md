@@ -1,4 +1,4 @@
-<!-- PAGE_STATUS: draft -->
+<!-- PAGE_STATUS: OK -->
 
 # Huawei Matebook X Pro 2020 (MACHC-WAX9)   
 
@@ -89,7 +89,7 @@ Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2
 ## Downloads
 
 > [!IMPORTANT]  
-> The ICC profile was created using theODS, system and app settings listed above.  
+> The ICC profile was created using the OSD, system and app settings listed above.  
 > Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
 
 ### ICC/ICM profile
