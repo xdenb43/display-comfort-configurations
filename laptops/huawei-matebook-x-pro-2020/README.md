@@ -2,9 +2,9 @@
 
 # Huawei Matebook X Pro 2020 (MACHC-WAX9)   
 
-13.9-inch 3:2 glossy LTPS touchscreen display featuring a **JDI LPM139M422A** panel.
+13.9-inch 3:2 glossy LTPS touchscreen display featuring a `JDI LPM139M422A` panel.
 
-Calibration objective: **Comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
+Calibration objective: **comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
 
 Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2020/specs/>  
 
@@ -50,7 +50,7 @@ Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2
 |         DCI-P3         |           ~ 70%            |               69.72%                |
 |       Adobe-RGB        |           ~ 68%            |               65.74%                |
 
-**Color depth:** 8 bit    
+**Color depth:** `8 bit`  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -67,7 +67,6 @@ Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2
 | Instrument       | Spyder X                              |
 | Software         | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
 
-
 **Calibration target**
 | Parameter          | Value              |
 | ------------------ | ------------------ |
@@ -78,9 +77,9 @@ Official product page:  <https://consumer.huawei.com/ie/laptops/matebook-x-pro-2
 
 ### OSD, system and app settings  
 
-- Display brightness: 41   
+- Display brightness: `41`   
 - Display manager application:   
-    - Color Temperature: Default  
+    - Color temperature: `default`  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>

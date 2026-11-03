@@ -2,11 +2,11 @@
 
 # [Device Name]
 
-[Short description of the device and display $PANEL.]
+[Short description of the device and display `$PANEL`.]
 
-Calibration objective: **Comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
+Calibration objective: **comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
 
-Official product page: [URL]
+Official product page: <URL>
 
 [![Page status](badges/status.svg)](#)
 [![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/badges/icc.html)
@@ -50,7 +50,7 @@ Official product page: [URL]
 |         DCI-P3         |          ~ 66-70%          |             :question:              |
 |       Adobe-RGB        |             -              |             :question:              |
 
-**Color depth:** X bit    
+**Color depth:** `X bit`    
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -63,10 +63,9 @@ Official product page: [URL]
 **Calibration environment**
 | Parameter        | Value                                 |
 | ---------------- | ------------------------------------- |
-| Calibration date | 2026-09-03 (YYYY-MM-DD)               |
+| Calibration date | 2026-11-03 (YYYY-MM-DD)               |
 | Instrument       | Spyder X                              |
 | Software         | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
-
 
 **Calibration target**
 | Parameter          | Value              |
@@ -78,9 +77,9 @@ Official product page: [URL]
 
 ### OSD, system and app settings  
 
-- Display brightness: 41   
+- Display brightness: `41`   
 - Display manager application:   
-    - Color Temperature: Default  
+    - Color temperature: `default`  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -90,7 +89,7 @@ Official product page: [URL]
 
 > [!IMPORTANT]  
 > The ICC profile was created using the OSD, system and app settings listed above.  
-> Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.   
+> Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.    
 
 ### ICC/ICM profile
 - [ICC profile](https://xdenb43.github.io/display-comfort-configurations/laptops/$DEVICE/$PANEL_120cdm2_D6500_2.2_M-S_XYZLUT_MTX.icm)
