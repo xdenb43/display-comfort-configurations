@@ -1,7 +1,7 @@
 # Contributing
 
 This document describes the workflow for adding and updating devices in the
-Display Configuration Database.
+[Display Comfort Configurations](https://github.com/xdenb43/display-comfort-configurations) database.
 
 The `main` branch contains only completed and verified changes.
 
