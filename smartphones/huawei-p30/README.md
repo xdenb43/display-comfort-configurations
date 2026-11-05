@@ -50,17 +50,17 @@ The priority here is: **visual comfort → readability → luminance control →
 
 ### Recommended display settings (eye comfort)
 
-| Parameter                                    | Value                            | Reason                                                                                                                                                                                                                |
-| -------------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Brightness (Яркость)                         | Auto (Авто)                      | Automatically adapts display luminance to ambient lighting, helping maintain an appropriate luminance level for the viewing environment.                                                                              |
-| Dark mode (Тёмный режим)                     | OFF — Light mode (Светлый режим) | Dark text on a light background provides better fine-text legibility for you and is subjectively more comfortable during prolonged reading. Positive polarity is generally advantageous for detailed text perception. |
-| Eye comfort / eye protection (Защита зрения) | OFF (Выкл.)                      | Keeps the display color balance neutral rather than applying a permanent warm shift. A warmer display is not inherently required for visual comfort during normal use.                                                |
-| Flicker reduction (Снижение мерцания)        | ON (Вкл.)                        | Reduces brightness modulation and is therefore preferred as a precaution against potential discomfort associated with OLED flicker.                                                                                   |
-| Font size (Размер текста)                    | Default (По умолчанию)           | Preserves the intended interface geometry while providing sufficient text size without unnecessary scaling.                                                                                                           |
-| Font weight (Жирность текста)                | +1 step (+1 деление)             | The default font appears subjectively too thin. One additional weight step improves stroke visibility and readability without making the text excessively bold.                                                       |
-| Color mode (Цвета)                           | Normal (Обычные)                 | Provides neutral color reproduction without artificially increasing saturation. This is appropriate for the P30's wide-gamut OLED display.                                                                            |
-| Color temperature (Цветовая температура)     | Default (По умолчанию)           | Maintains the default white-point balance without introducing an unnecessary permanent warm or cool shift. There is insufficient basis to prefer a warmer or cooler setting solely for visual comfort.                |
-| Screen resolution (Разрешение экрана)        | High (Высокое)                   | Preserves the native 2340 × 1080 resolution and maximum available text and fine-detail clarity at approximately 422 ppi. Lowering the resolution provides no clear visual-comfort advantage for this use case.        |
+| Parameter                    | Value            |
+| ---------------------------- | ---------------- |
+| Brightness                   | Auto             |
+| Dark mode                    | OFF — Light mode |
+| Eye comfort / eye protection | OFF              |
+| Flicker reduction            | ON               |
+| Font size                    | Default          |
+| Font weight                  | +1 step          |
+| Color mode                   | Normal           |
+| Color temperature            | Cold             |
+| Screen resolution            | High             |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
