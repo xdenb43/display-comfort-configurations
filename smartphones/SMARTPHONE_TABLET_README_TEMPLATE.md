@@ -56,46 +56,46 @@ Priority: **long-term visual comfort → readability → luminance control → n
 
 ### Recommended display settings (eye comfort)
 
-| Parameter                      | Value | Reason |
-| ------------------------------ | ----- | ------ |
-| Brightness                     |       |        |
-| Display appearance / dark mode |       |        |
-| Eye comfort / eye protection   |       |        |
-| Flicker reduction              |       |        |
-| Font size                      |       |        |
-| Font weight                    |       |        |
-| Color mode                     |       |        |
-| Color temperature              |       |        |
-| Screen resolution              |       |        |
-| Refresh rate                   |       |        |
+| Parameter                      | Value |
+| ------------------------------ | ----- |
+| Brightness                     |       |
+| Display appearance / dark mode |       |
+| Eye comfort / eye protection   |       |
+| Flicker reduction              |       |
+| Font size                      |       |
+| Font weight                    |       |
+| Color mode                     |       |
+| Color temperature              |       |
+| Screen resolution              |       |
+| Refresh rate                   |       |
 
 ### Accessibility — display & text size
 
-| Parameter                   | Value | Reason |
-| --------------------------- | ----- | ------ |
-| Bold text                   |       |        |
-| Larger text                 |       |        |
-| Button shapes               |       |        |
-| On/off labels               |       |        |
-| Reduce transparency         |       |        |
-| Increase contrast           |       |        |
-| Differentiate without color |       |        |
-| Prefer horizontal text      |       |        |
-| Smart invert                |       |        |
-| Classic invert              |       |        |
-| Color filters               |       |        |
-| Reduce white point          |       |        |
+| Parameter                   | Value |
+| --------------------------- | ----- |
+| Bold text                   |       |
+| Larger text                 |       |
+| Button shapes               |       |
+| On/off labels               |       |
+| Reduce transparency         |       |
+| Increase contrast           |       |
+| Differentiate without color |       |
+| Prefer horizontal text      |       |
+| Smart invert                |       |
+| Classic invert              |       |
+| Color filters               |       |
+| Reduce white point          |       |
 
 ### Accessibility — motion
 
-| Parameter                  | Value | Reason |
-| -------------------------- | ----- | ------ |
-| Reduce motion              |       |        |
-| Dim flashing lights        |       |        |
-| Auto-play animated images  |       |        |
-| Auto-play video previews   |       |        |
-| Message effects            |       |        |
-| Prefer non-blinking cursor |       |        |
+| Parameter                  | Value |
+| -------------------------- | ----- |
+| Reduce motion              |       |
+| Dim flashing lights        |       |
+| Auto-play animated images  |       |
+| Auto-play video previews   |       |
+| Message effects            |       |
+| Prefer non-blinking cursor |       |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
