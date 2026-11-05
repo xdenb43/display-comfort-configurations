@@ -52,16 +52,16 @@ The priority here is: **long-term visual comfort → readability → luminance c
 
 ### Recommended display settings (eye comfort)
 
-| Parameter                                    | Value                            | Reason                                                                                                                                                                                                                                                                                                                               |
-| -------------------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Brightness (Яркость)                         | Auto — ON (Авто — Вкл.)          | Automatically adapts display luminance to ambient lighting, helping avoid unnecessarily high or low brightness while maintaining appropriate readability. Automatic luminance control is particularly useful for a tablet used under changing indoor and outdoor lighting conditions.                                                |
-| Dark mode (Тёмный режим)                     | OFF — Light mode (Светлый режим) | Dark text on a light background generally provides better fine-text legibility and is preferable for prolonged reading when readability is the primary goal.                                                                                                                                                                         |
-| Eye comfort / Eye protection (Защита зрения) | OFF (Выкл.)                      | Keeps the display at its default color balance without applying a permanent warm shift. A warmer display is not inherently required for visual comfort during normal use.                                                                                                                                                            |
-| Font size (Размер текста)                    | Default (Обычный)                | Preserves the intended interface geometry while providing sufficient text size without unnecessary scaling.                                                                                                                                                                                                                          |
-| Font weight (Жирность текста)                | Default (Обычная)                | Maintains the intended text rendering and avoids unnecessarily heavy strokes. Default weight provides a good balance between readability and visual simplicity.                                                                                                                                                                      |
-| Natural tone (Естественный тон)              | ON (Вкл.)                        | Automatically adapts the display's color temperature to ambient lighting conditions, helping maintain a more natural perceived white point throughout the day. This can improve visual comfort when the tablet is used under different lighting conditions without requiring manual adjustment.                                      |
-| Color temperature (Цветовая температура)     | Default (По умолчанию)           | Maintains the default white-point balance without introducing a permanent warm or cool shift. There is insufficient basis to prefer either warmer or cooler settings solely for visual comfort.                                                                                                                                      |
-| Smart resolution (Умное разрешение)          | OFF (Выкл.)                      | Disabling Smart Resolution provides noticeably smoother and more responsive system operation on this device. Since the tablet already operates at its native **2000 × 1200** resolution, adaptive resolution management provides no demonstrated visual-comfort benefit and may introduce unnecessary changes in rendering behavior. |
+| Parameter                    | Value            |
+| ---------------------------- | ---------------- |
+| Brightness                   | Auto — ON        |
+| Dark mode                    | OFF — Light mode |
+| Eye comfort / Eye protection | OFF              |
+| Font size                    | Default          |
+| Font weight                  | Default          |
+| Natural tone                 | ON               |
+| Color temperature            | Default          |
+| Smart resolution             | OFF              |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
