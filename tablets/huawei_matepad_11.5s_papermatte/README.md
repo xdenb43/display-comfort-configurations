@@ -5,7 +5,7 @@
 Huawei MatePad 11.5S PaperMatte features an **IPS LCD display with a 2800 × 1840 resolution, P3 wide color gamut and a PaperMatte anti-glare display surface.**
 Although IPS LCD displays generally do not use emissive pixels like OLED, **display luminance, viewing conditions and brightness modulation may still affect visual comfort** during prolonged use.
 
-Settings optimized for **long-term visual comfort, readability and stable image reproduction** while maintaining natural color reproduction and maximum available display clarity.
+Settings optimized for **long-term visual comfort, readability/drawing and stable image reproduction** while maintaining natural color reproduction and maximum available display clarity.
 
 Official product page: <https://consumer.huawei.com/ru/tablets/matepad-11-5-s/specs/>
 
