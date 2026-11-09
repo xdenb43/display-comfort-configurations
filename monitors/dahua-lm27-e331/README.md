@@ -150,10 +150,10 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 |         60         |        227        |
 |         70         |        259        |
 |         80         |        290        |
-|         90         |        320[^1]    |
-|        100         |        350[^1]    |
+|         90         |        320 [^1]   |
+|        100         |        350 [^1]   |
 
-[^1]: It could be Spyder X measurement peculiarity, because of max brightness declared is `300` cd/m²
+[^1]: It could be Spyder X measurement peculiarity, because of max brightness declared is `300` cd/m²  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
