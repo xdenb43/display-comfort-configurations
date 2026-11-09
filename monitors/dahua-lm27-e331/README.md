@@ -6,7 +6,7 @@
 
 Calibration objective: **comfortable everyday use with reduced eye strain during prolonged use, targeting the sRGB color space.**
 
-Official product page:  <https://www.dahuasecurity.com/mena/products/All-Products/Display--Control/Monitors/Gaming-Series/LM27-E331A>  
+Official product page:  <https://display.dahuasecurity.com/consumer/en/products/productDetail?product_id=139647>  
 
 [![Page status](badges/status.svg)](#)
 [![ICC profile](badges/icc.svg)](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/badges/icc.html)
@@ -32,12 +32,12 @@ Official product page:  <https://www.dahuasecurity.com/mena/products/All-Product
 | Panel type          | IPS             |
 | Aspect ratio        | 16:9            |
 | Resolution          | 2560 × 1440     |
-| Backlight           | E-LED WCG       |
+| Backlight           | E-LED           |
 | Refresh rate        | 180 Hz          |
-| Brightness(typ)     | 300 nits        |
+| Brightness(typ)     | 300 cd/m² (max) |
 | Contrast ratio      | 1000:1          |
 | Viewing angle (H/V) | 178°(H)/178°(V) |
-| Response time       | 1 ms            |
+| Response time       | MPRT 1 ms       |
 
 
 ### Color characteristics  
@@ -79,7 +79,7 @@ Official product page:  <https://www.dahuasecurity.com/mena/products/All-Product
 
 ### OSD settings  
 
-The white point D65 is set using a 10% to 100% grayscale
+The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
 
 - Display menu:  
     - Brightness: 27  
@@ -150,8 +150,10 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 |         60         |        227        |
 |         70         |        259        |
 |         80         |        290        |
-|         90         |        320        |
-|        100         |        350        |
+|         90         |        320[^1]    |
+|        100         |        350[^1]    |
+
+[^1]: It could be Spyder X measurement peculiarity, because of max brightness declared is `300` cd/m²
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
