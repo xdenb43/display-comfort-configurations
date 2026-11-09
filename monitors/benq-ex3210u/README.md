@@ -132,17 +132,12 @@ The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
 > should be considered provisional.
 >
 > The monitor was operating in Custom mode with HDR and B.I.+ disabled.
-> 
-> The `120` cd/m² reference point (Brightness: 11%) was independently 
-> confirmed using both HCFR 2019 and DisplayCAL.
-> 
-> Measurements above the reference point have not been independently 
-> verified. Values exceeding the manufacturer's specified SDR 
-> brightness of `300` cd/m² should be treated as provisional rather 
-> than confirmed SDR luminance characteristics.
-> 
-> Further verification is required to establish the accuracy of 
-> the upper brightness range.
+>
+> The `120` cd/m² reference point (OSD Brightness: `11%`) was independently
+> confirmed using both HCFR 2019 and DisplayCAL with a SpyderX colorimeter.
+>
+> Further verification is required to establish the accuracy of the
+> upper brightness range.
 
 > [!NOTE]
 > Recommended luminance levels:
