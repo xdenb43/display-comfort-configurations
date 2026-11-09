@@ -127,7 +127,7 @@ The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
 ## Brightness response curve  
 
 > [!WARNING]
-> Luminance measurements above `120` cd/m² have not been independently verified.
+> Luminance measurements above `120` cd/m² have not been independently verified.  
 > Values exceeding the manufacturer's specified SDR brightness of `300` cd/m²
 > should be considered provisional.
 >
