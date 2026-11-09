@@ -153,7 +153,9 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 |         90         |        320 [^1]   |
 |        100         |        350 [^1]   |
 
-[^1]: It could be Spyder X measurement peculiarity, because of max brightness declared is `300` cd/m²  
+[^1]: Measured luminance exceeds the manufacturer's specified
+maximum SDR brightness of 300 cd/m². Values are retained as
+experimental measurements and have not been independently verified.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
