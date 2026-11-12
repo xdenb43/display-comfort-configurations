@@ -46,10 +46,10 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
 |      Color gamut       | Declared/known<br>coverage | Calibrated and measured<br>coverage |
 | :--------------------: | :------------------------: | :---------------------------------: |
 | Wide color gamut (WDC) |     :heavy_check_mark:     |         :heavy_check_mark:          |
-|          sRGB          |           ~ 99%            |               99.92%                |
+|          sRGB          |           ~ 99%            |               99.95%                |
 |          NTSC          |           ~ 85%            |                  -                  |
-|         DCI-P3         |             -              |               90.38%                |
-|       Adobe-RGB        |             -              |               80.97%                |
+|         DCI-P3         |             -              |               91.26%                |
+|       Adobe-RGB        |             -              |               82.08%                |
    
 **Color depth:** `8 bit`  
 
@@ -64,7 +64,7 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
 **Calibration environment**
 | Parameter                        | Value                                 |
 | -------------------------------- | ------------------------------------- |
-| Calibration date                 | 2026-10-30 (YYYY-MM-DD)               |
+| Calibration date                 | 2026-11-12 (YYYY-MM-DD)               |
 | Instrument                       | Spyder X                              |
 | White point setup software       | HCFR 2019 (Spyder X version)          |
 | Calibration & profiling Software | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
@@ -82,14 +82,14 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
 The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
 
 - Display menu:  
-    - Brightness: 27  
+    - Brightness: 28  
     - Contrast: 50  
-    - Black level: 49  
+    - Black level: 50  
     - Sharpness: 50  
 - Colors menu:  
-    - Red: 50  
-    - Green: 49  
-    - Blue: 44  
+    - Red: 50 (default)  
+    - Green: 49 (1 click down from 50) [^1]    
+    - Blue: 43 (1 click down from 44) [^1]    
 - Gaming menu:  
     - FreeSync: OFF  
     - Overdrive: OFF  
@@ -98,6 +98,8 @@ The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
 - Advanced menu:  
     - HDR: OFF  
 - Refresh rate: 120 Hz fixed
+  
+[^1]: Colors have several clicks for one value  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
