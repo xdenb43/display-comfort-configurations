@@ -88,8 +88,8 @@ The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
     - Sharpness: 50  
 - Colors menu:  
     - Red: 50 (default)  
-    - Green: 49 (1 click down from 50) [^1]  
-    - Blue: 43 (1 click down from 44) [^1]  
+    - Green: 49 (1 click down from 50) [^1]    
+    - Blue: 43 (1 click down from 44) [^1]    
 - Gaming menu:  
     - FreeSync: OFF  
     - Overdrive: OFF  
@@ -98,8 +98,8 @@ The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
 - Advanced menu:  
     - HDR: OFF  
 - Refresh rate: 120 Hz fixed
-
-[^1] colors have several clicks for one value
+  
+[^1]: Colors have several clicks for one value  
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
