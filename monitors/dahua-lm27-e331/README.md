@@ -138,23 +138,24 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 
 | OSD Brightness (%) | Luminance (cd/m²) |
 | :----------------: | :---------------: |
-|         0          |        27         |
-|         10         |        59         |
-|      -> 16 <-      |     -> 80 <-      |
-|         20         |        93         |
-|      -> 22 <-      |     -> 100 <-     |
-|      -> 28 <-      |     -> 119 <-     |
-|         30         |        127        |
-|      -> 34 <-      |     -> 139 <-     |
-|      -> 40 <-      |     -> 160 <-     |
-|         50         |        193        |
-|         60         |        223        |
-|         70         |        254        |
-|         80         |        284        |
-|         90         |        314 [^2]   |
-|        100         |        344 [^2]   |
+|         0          |        28         |
+|         10         |        60         |
+|      -> 16 <-      |     -> 81 <-      |
+|         20         |        95         |
+|      -> 22 <-      |     -> 101 <-     |
+|      -> 27 <-      |     -> 120 <-     |
+|         30         |        130        |
+|      -> 33 <-      |     -> 140 <-     |
+|      -> 39 <-      |     -> 160 <-     |
+|         40         |        163        |
+|         50         |        196        |
+|         60         |        227        |
+|         70         |        259        |
+|         80         |        290        |
+|         90         |        320 [^1]   |
+|        100         |        350 [^1]   |
 
-[^2]: Measured luminance exceeds the manufacturer's specified
+[^1]: Measured luminance exceeds the manufacturer's specified
 maximum SDR brightness of 300 cd/m². Values are retained as
 experimental measurements and have not been independently verified.
 
