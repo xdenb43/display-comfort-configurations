@@ -64,7 +64,7 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
 | -------------------------------- | ------------------------------------ |
 | Calibration date                 | 2026-11-24 (YYYY-MM-DD)              |
 | Instrument                       | Calibrite Display PRO HL rev. D      |
-| Calibration & profiling Software | DisplayCal 3.9.19<br>ArgyllCMS 3.5.0 |
+| Calibration & profiling software | DisplayCal 3.9.19<br>ArgyllCMS 3.5.0 |
 
 **Calibration target**
 | Parameter          | Value                         |
