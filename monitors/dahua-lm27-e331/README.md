@@ -1,4 +1,4 @@
-<!-- PAGE_STATUS: DRAFT -->
+<!-- PAGE_STATUS: OK -->
 
 # Dahua DHI-LM27-E331A   
 
@@ -20,8 +20,6 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
   - [Environment and targets](#environment-and-targets)
   - [OSD settings](#osd-settings)
 - [Downloads](#downloads)
-  - [ICC/ICM profile](#iccicm-profile)
-  - [Reports](#reports)
 - [Brightness response curve](#brightness-response-curve)
 
 ## Specifications  
@@ -127,6 +125,9 @@ Measurement done with DisplayCal interactive display adjustment window
 > - Daylight: 120–140 cd/m²
 > - Bright daylight: 140–160 cd/m²
 
+> [!WARNING]
+> OSD brightness levels above ~48% introduce a green color cast, requiring recalibration at the target brightness level.
+
 ![Brightness vs. Luminance](brightness_vs_luminance_dhi-lm27-e331.png) 
 
 | OSD Brightness (%) | Luminance (cd/m²) |
@@ -148,7 +149,7 @@ Measurement done with DisplayCal interactive display adjustment window
 |         90         |        304 [^2]   |
 |        100         |        333 [^2]   |
 
-[^2]: Measured luminance exceeds the manufacturer's specified maximum SDR brightness of 300 cd/m².
+[^2]: Measured luminance exceeds the manufacturer's specified maximum SDR brightness of 300 cd/m².  
 Values are retained as experimental measurements and have not been independently verified.
 
 <p align="right">
