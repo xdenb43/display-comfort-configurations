@@ -20,8 +20,6 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
   - [Environment and targets](#environment-and-targets)
   - [OSD settings](#osd-settings)
 - [Downloads](#downloads)
-  - [ICC/ICM profile](#iccicm-profile)
-  - [Reports](#reports)
 - [Brightness response curve](#brightness-response-curve)
 
 ## Specifications  
@@ -46,10 +44,10 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
 |      Color gamut       | Declared/known<br>coverage | Calibrated and measured<br>coverage |
 | :--------------------: | :------------------------: | :---------------------------------: |
 | Wide color gamut (WDC) |     :heavy_check_mark:     |         :heavy_check_mark:          |
-|          sRGB          |           ~ 99%            |               99.95%                |
+|          sRGB          |           ~ 99%            |               99.84%                |
 |          NTSC          |           ~ 85%            |                  -                  |
-|         DCI-P3         |             -              |               91.26%                |
-|       Adobe-RGB        |             -              |               82.08%                |
+|         DCI-P3         |             -              |               90.15%                |
+|       Adobe-RGB        |             -              |               80.63%                |
    
 **Color depth:** `8 bit`  
 
@@ -62,12 +60,11 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
 ### Environment and targets
 
 **Calibration environment**
-| Parameter                        | Value                                 |
-| -------------------------------- | ------------------------------------- |
-| Calibration date                 | 2026-11-12 (YYYY-MM-DD)               |
-| Instrument                       | Spyder X                              |
-| White point setup software       | HCFR 2019 (Spyder X version)          |
-| Calibration & profiling Software | DisplayCal 3.8.9.3<br>ArgyllCMS 3.5.0 |
+| Parameter                        | Value                                |
+| -------------------------------- | ------------------------------------ |
+| Calibration date                 | 2026-11-24 (YYYY-MM-DD)              |
+| Instrument                       | Calibrite Display PRO HL rev. D      |
+| Calibration & profiling Software | DisplayCal 3.9.19<br>ArgyllCMS 3.5.0 |
 
 **Calibration target**
 | Parameter          | Value                         |
@@ -79,17 +76,15 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
 
 ### OSD settings  
 
-The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
-
 - Display menu:  
-    - Brightness: 28  
+    - Brightness: 29  
     - Contrast: 50  
     - Black level: 50  
     - Sharpness: 50  
 - Colors menu:  
     - Red: 50 (default)  
     - Green: 49 (1 click down from 50) [^1]    
-    - Blue: 43 (1 click down from 44) [^1]    
+    - Blue: 45 (1 click above 44) [^1]    
 - Gaming menu:  
     - FreeSync: OFF  
     - Overdrive: OFF  
@@ -111,12 +106,8 @@ The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
 > The ICC profile was created using the OSD settings listed above.  
 > Different monitor settings (brightness, RGB gain, contrast, etc.) may reduce color accuracy.  
 
-### ICC/ICM profile
-- [ICC profile](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/DHI-LM27-E331_120cdm2_2.2_M-S_XYZLUT_MTX.icm)
-
-### Reports  
+- [ICC/ICM profile](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/DHI-LM27-E331_120cdm2_D6500_2.2_F-S_XYZLUT_MTX.icm)  
 - [Verification report (HTML)](https://xdenb43.github.io/display-comfort-configurations/monitors/dahua-lm27-e331/Measurement_Report_DHI-LM27-E331.html)
-- [Verification report (PDF)](Measurement_Report_DHI-LM27-E331.pdf)
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
@@ -124,7 +115,7 @@ The white point D65 is set using a 10% to 100% built-in HCFR 2019 grayscale
 
 ## Brightness response curve  
 
-Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com/doc/spotread.html)
+Measurement done with DisplayCal interactive display adjustment window
 
 > [!NOTE]
 > Recommended luminance levels:
@@ -134,30 +125,32 @@ Post-calibration measurement with [ArgyllCMS/spotread](https://www.argyllcms.com
 > - Daylight: 120–140 cd/m²
 > - Bright daylight: 140–160 cd/m²
 
+> [!WARNING]
+> OSD brightness levels above ~48% introduce a green color cast, requiring recalibration at the target brightness level.
+
 ![Brightness vs. Luminance](brightness_vs_luminance_dhi-lm27-e331.png) 
 
 | OSD Brightness (%) | Luminance (cd/m²) |
 | :----------------: | :---------------: |
-|         0          |        28         |
-|         10         |        60         |
-|      -> 16 <-      |     -> 81 <-      |
-|         20         |        95         |
-|      -> 22 <-      |     -> 101 <-     |
-|      -> 27 <-      |     -> 120 <-     |
-|         30         |        130        |
-|      -> 33 <-      |     -> 140 <-     |
-|      -> 39 <-      |     -> 160 <-     |
-|         40         |        163        |
-|         50         |        196        |
-|         60         |        227        |
-|         70         |        259        |
-|         80         |        290        |
-|         90         |        320 [^1]   |
-|        100         |        350 [^1]   |
+|         0          |        26         |
+|         10         |        57         |
+|      -> 17 <-      |     -> 80 <-      |
+|         20         |        90         |
+|      -> 23 <-      |     -> 100 <-     |
+|      -> 29 <-      |     -> 119 <-     |
+|         30         |        123        |
+|      -> 36 <-      |     -> 140 <-     |
+|         40         |        154        |
+|      -> 42 <-      |     -> 160 <-     |
+|         50         |        186        |
+|         60         |        214        |
+|         70         |        245        |
+|         80         |        274        |
+|         90         |        304 [^2]   |
+|        100         |        333 [^2]   |
 
-[^1]: Measured luminance exceeds the manufacturer's specified
-maximum SDR brightness of 300 cd/m². Values are retained as
-experimental measurements and have not been independently verified.
+[^2]: Measured luminance exceeds the manufacturer's specified maximum SDR brightness of 300 cd/m².  
+Values are retained as experimental measurements and have not been independently verified.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Toc</a>
