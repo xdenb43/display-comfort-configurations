@@ -79,14 +79,21 @@ Official product page:  <https://display.dahuasecurity.com/consumer/en/products/
 - Display menu:  
     - Brightness: 29  
     - Contrast: 50  
-    - Black level: 50  
+    - Black equalize: 50  
+    - Sharpness: 50
+    - Preset: User
     - Sharpness: 50  
-- Colors menu:  
-    - Red: 50 (default)  
-    - Green: 49 (1 click down from 50) [^1]    
-    - Blue: 45 (1 click above 44) [^1]    
-- Gaming menu:  
-    - FreeSync: OFF  
+- Color menu:
+    - Color temperature: User
+      - Red: 50 (default)  
+      - Green: 49 (1 click down from 50) [^1]    
+      - Blue: 45 (1 click above 44) [^1]    
+    - Gamma: 2.2  
+    - Hue: 50  
+    - Saturation: 50
+    - Low blue light: 0    
+- Gaming setup menu:  
+    - FreeSync/G-Sync: OFF  
     - Overdrive: OFF  
     - DCR: OFF  
     - MPRT: OFF  
